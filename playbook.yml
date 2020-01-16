@@ -16,7 +16,7 @@
       docker_container:
         name: container_by_jenkins
         image: gl333nn/apache-ubuntu:latest
-        state:started
+        state: started
         published ports:
            - 9000:80
         recreate: yes
