@@ -17,7 +17,7 @@
         name: container_by_jenkins
         image: gl333nn/apache-ubuntu:latest
         state: started
-        published ports:
+        published_ports:
            - 9000:80
         recreate: yes
         interactive: yes
