@@ -15,7 +15,7 @@
     - name: create container
       docker_container:
         name: container_by_jenkins
-        image: ajizkai/apache-ubuntu:latest
+        image: gl333nn/apache-ubuntu:latest
         state:started
         published ports:
            - 9000:80
